@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+ul {
+    list-style: none;
+    display: flex;
+    background: #f5f4f4;
+    padding: 12px 15px;
+    margin: 5px;
+}
+
+ul>li {
+    padding: 5px 18px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #f5f4f4;
+    box-shadow: 10px 10px 20px #848484, -10px -10px 20px #a5a2a2;
+}
